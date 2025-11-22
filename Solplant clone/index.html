@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>solplant</title>
+  <!-- CSS Link  -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Font Link  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- font Awesome Link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<header>
+  <div class="top-header">
+    <div class="top-header-left">
+      <ul>
+        <li>
+          <i class="fa-solid fa-phone-volume"></i>
+          <span>00440012345678</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:example@example.com">example@example.com</a>
+        </li>
+      </ul>
+    </div>
+    <div class="top-header-right">
+
+      <ul>
+        <li>
+          <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+
+        <li>
+          <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <nav>
+    <div class="nav-container">
+      <!-- Hamburger Button -->
+<div class="hamburger" onclick="toggleMenu()">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Shop</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</div>
+
+      <!-- Logo -->
+      <div class="nav-logo">
+        <img src="./UI Clone Images/logo.png" alt="Logo">
+      </div>
+
+      <!-- Menu -->
+      <div class="nav-menu">
+        <ul>
+          <li>
+            <a href="#">Home <i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown">
+              <li><a href="/">Home 1</a></li>
+              <li><a href="/index2">Home 2</a></li>
+            </ul>
+          </li>
+          <li><a href="/about-us">About Us</a></li>
+          <li>
+            <a href="#">Page <i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown">
+              <li><a href="/cart">Cart</a></li>
+              <li><a href="/changepassword">Change Password</a></li>
+              <li><a href="/login">Login</a></li>
+              <li><a href="/order-details">Order Details</a></li>
+              <li><a href="/order-summery">Order Summary</a></li>
+              <li><a href="/order-tacking">Order Tracking</a></li>
+              <li><a href="/payment">Payment</a></li>
+              <li><a href="/profile">Profile</a></li>
+              <li><a href="/signup">Sign Up</a></li>
+            </ul>
+          </li>
+          <li><a href="/product">Product</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Icons -->
+      <div class="nav-icon-box">
+        <div class="nav-icon">
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+        <div class="nav-icon">
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="nav-icon">
+          <a href="#"><i class="fa-solid fa-user"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <p class="heading-1">Summer Collection 2023</p>
+    <p class="heading-2">Plants Gonna Make <br> People Happy</p>
+    <button class="shop-now"> Shop Now</button>
+    <button class="explore-now"> Explore Now</button>
+  </div>
+</section>
+
+<section id="selling">
+  <div class="container">
+
+    <!-- Top Banner -->
+    <div class="selling-banner">
+      <img src="./UI Clone Images/best-selling.png" alt="Best Selling Banner">
+      <div class="overlay-text">
+        <h3>Get 50% Off</h3>
+        <p>Best Selling</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+    </div>
+
+    <!-- Middle 4 Images -->
+    <div class="selling-grid">
+      <div class="grid-item">
+        <img src="./UI Clone Images/image.png" alt="">
+        <div class="overlay-text-02">
+          <h4>Big Saving</h4>
+          <p>Flat 50% Off</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img src="./UI Clone Images/summer-pots.png" alt="">
+        <div class="overlay-text-03">
+          <h4>Summer's Pots</h4>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img src="./UI Clone Images/quality-products.png" alt="">
+        <div class="overlay-text-04">
+          <h4>Quality Product</h4>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img src="./UI Clone Images/green-plants.png" alt="">
+        <div class="overlay-text-05">
+          <h4>Green Plants</h4>
+          <p>Flat 50% Off</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Banner -->
+    <div class="selling-banner">
+      <img src="./UI Clone Images/popular.png" alt="Popular Collection">
+      <div class="overlay-text-01">
+        <h4>Popular</h4>
+        <h3>Collection of Cactus</h3>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Arrival section  -->
+
+<section class="arival">
+  <div class="arival-contenor">
+    <div class="arival-text">
+      <h1>New Arrival</h1>
+    </div>
+    <div class="arival-ul">
+      <ul>
+        <li><a href="">All</a></li>
+        <li><a href="">Top Rating</a></li>
+        <li><a href="">Tranding</a></li>
+        <li><a href="">Best Seller</a></li>
+      </ul>
+    </div>
+    <div class="arival-cards-01">
+      <div class="arival-card-1">
+        <img src="./UI Clone Images/5.png" alt="">
+        <div class="arival-icon-1">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h4>Curabilur a purus</h4>
+        <p>$99.00 - <strike>$79.20</strike></p>
+      </div>
+      <div class="arival-card-1">
+        <img src="./UI Clone Images/summer-pots.png" alt="">
+        <div class="arival-icon-1">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h4>Aliquam vel</h4>
+        <p>$99.00 - <strike>$79.20</strike></p>
+      </div>
+
+      <div class="arival-card-1">
+        <img src="./UI Clone Images/7.png" alt="">
+        <div class="arival-icon-1">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h4>Aliquam furnilure</h4>
+        <p>$99.00 - <strike>$79.20</strike></p>
+      </div>
+    </div>
+
+
+    <div class="arival-cards-02">
+      <div class="arival-card-2">
+        <img src="./UI Clone Images/quality-products.png" alt="">
+        <div class="arival-icon-2">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h4>Convalis Quam Sil</h4>
+        <p>$99.00 - <strike>$79.20</strike></p>
+      </div>
+
+      <div class="arival-card-2">
+        <img src="./UI Clone Images/8.png" alt="">
+        <div class="arival-icon-2">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h4> Aliquam furnilure</h4>
+        <p>$99.00 - <strike>$79.20</strike></p>
+      </div>
+
+      <div class="arival-card-2">
+        <img src="./UI Clone Images/6.png" alt="">
+        <div class="arival-icon-2">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h4>Dignisum Furnilure</h4>
+        <p>$99.00 - <strike>$79.20</strike></p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="arrival-btn">
+    <p class="A-btn">See All Products</p>
+  </div>
+
+</section>
+
+<section>
+  <div class="skinny-contenar">
+    <div class="skinny-text">
+      <h1>Here's The Skinny: Plants <br> Bring People Joy</h1>
+    </div>
+    <div class="time-number">
+      <span class="number">0</span> <span class="number">1</span> <span class="semi-colan"> : </span>
+      <span class="number"> 2</span> <span class="number"> 3 </span><span class="semi-colan"> : </span>
+      <span class="number "> 2 </span> <span class="number"> 2</span> <span class="semi-colan"> :</span>
+      <span class="number">1</span> <span class="number"> 2</span>
+
+    </div>
+    <button class="skinny-shop"> Shop Now</button>
+
+
+
+  </div>
+
+</section>
+
+<section>
+  <div class="best-product">
+    <div class="best-text">
+      <h1>Best Product</h1>
+    </div>
+    <div class="best-cards">
+      <div class="best-card">
+        <img src="./UI Clone Images/5.png" alt="">
+        <h2>Sleeves Variable</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.
+        </p>
+        <h3>$35</h3>
+      </div>
+
+      <div class="best-card">
+        <img src="./UI Clone Images/6.png" alt="">
+        <h2>Aniquam Farnilure</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.
+        </p>
+        <h3>$49</h3>
+      </div>
+
+      <div class="best-card">
+        <img src="./UI Clone Images/7.png" alt="">
+        <h2>Plant Beauitiful</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.
+        </p>
+        <h3>$44</h3>
+      </div>
+
+      <div class="best-card">
+        <img src="./UI Clone Images/8.png" alt="">
+        <h2>Freddie calalhea</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.
+        </p>
+        <h3>$12</h3>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Newsletter Section -->
+<section class="newsletter">
+  <div class="newsletter-container">
+    <!-- Left Content -->
+    <div class="newsletter-text">
+      <h2>Join to Our Newsletter For More Info</h2>
+      <p>Contrary to popular belief, Lorem Ipsum is not simply</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email..." required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <!-- Right Images -->
+    <div class="newsletter-images">
+      <img src="./UI Clone Images/first-image.png" alt="Plant 1" width="100%">
+      <img src="./UI Clone Images/fourth-image.png" alt="Plant 2" width="100%">
+      <img src="./UI Clone Images/third-image.png" alt="Plant 3" width="100%">
+      <img src="./UI Clone Images/second-image.png" alt="Plant 4" width="100%">
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="top-ratid">
+    <div class="top-text">
+      <h1>Top Rated Products</h1>
+    </div>
+
+    <div class="top-cards">
+
+      <!-- card one  -->
+      <div class="top-card">
+        <div class="top-card-imag">
+          <img src="./UI Clone Images/double.png" alt="" width="100%">
+        </div>
+        <div class="top-card-text">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+
+          <h4>Double Strap</h4>
+          <p>$99.00 - <strike>$79.20</strike></p>
+          <div class="top-icon-boxes">
+            <div class="top-icon-box">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="top-icon-box">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            <div class="top-icon-box">
+              <i class="fa-solid fa-eye"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card two -->
+
+      <div class="top-card">
+        <div class="top-card-imag">
+          <img src="./UI Clone Images/fringilla.png" alt="" width="100%">
+        </div>
+        <div class="top-card-text">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+
+          <h4>Double Strap</h4>
+          <p>$99.00 - <strike>$79.20</strike></p>
+          <div class="top-icon-boxes">
+            <div class="top-icon-box">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="top-icon-box">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            <div class="top-icon-box">
+              <i class="fa-solid fa-eye"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- card three  -->
+      <div class="top-card">
+        <div class="top-card-imag">
+          <img src="./UI Clone Images/plant.png" alt="" width="100%">
+        </div>
+        <div class="top-card-text">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+
+          <h4>Double Strap</h4>
+          <p>$99.00 - <strike>$79.20</strike></p>
+          <div class="top-icon-boxes">
+            <div class="top-icon-box">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="top-icon-box">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            <div class="top-icon-box">
+              <i class="fa-solid fa-eye"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+
+    <div class="top-cards">
+
+      <!-- card one  -->
+      <div class="top-card">
+        <div class="top-card-imag">
+          <img src="./UI Clone Images/fringilla_2.png" alt="" width="100%">
+        </div>
+        <div class="top-card-text">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+
+          <h4>Double Strap</h4>
+          <p>$99.00 - <strike>$79.20</strike></p>
+          <div class="top-icon-boxes">
+            <div class="top-icon-box">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="top-icon-box">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            <div class="top-icon-box">
+              <i class="fa-solid fa-eye"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card two -->
+
+      <div class="top-card">
+        <div class="top-card-imag">
+          <img src="./UI Clone Images/fringilla.png" alt="" width="100%">
+        </div>
+        <div class="top-card-text">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+
+          <h4>Double Strap</h4>
+          <p>$99.00 - <strike>$79.20</strike></p>
+          <div class="top-icon-boxes">
+            <div class="top-icon-box">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="top-icon-box">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            <div class="top-icon-box">
+              <i class="fa-solid fa-eye"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- card three  -->
+      <div class="top-card">
+        <div class="top-card-imag">
+          <img src="./UI Clone Images/eled.png" alt="" width="100%">
+        </div>
+        <div class="top-card-text">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+
+          <h4>Double Strap</h4>
+          <p>$99.00 - <strike>$79.20</strike></p>
+          <div class="top-icon-boxes">
+            <div class="top-icon-box">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="top-icon-box">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            <div class="top-icon-box">
+              <i class="fa-solid fa-eye"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+</section>
+
+<!-- Article section  -->
+<section>
+  <div class="Article-contenor">
+    <div class="artical-text">
+      <h1>Read Our Article</h1>
+    </div>
+    <div class="article-cards">
+      <!-- card one  -->
+      <div class="artical-card">
+        <p>February 15,2023</p>
+        <h3>House More Beautiful</h3>
+        <p>There or are many the variations of passages of Lorem Ipsum or available, but the majority have but the
+          majority have suffered</p>
+        <h4>Mr. Onsequat</h4>
+        <h5>Vesoz Admin</h5>
+        <img src="./UI Clone Images/house-beautiful.png" alt="">
+      </div>
+
+      <!-- card two  -->
+
+      <div class="artical-card">
+        <p>February 15,2023</p>
+        <h3>House More Beautiful</h3>
+        <p>There or are many the variations of passages of Lorem Ipsum or available, but the majority have but the
+          majority have suffered</p>
+        <h4>Mr. Onsequat</h4>
+        <h5>Vesoz Admin</h5>
+        <img src="./UI Clone Images/plants-help.png" alt="">
+      </div>
+      <!-- card three  -->
+
+      <div class="artical-card">
+        <p>February 15,2023</p>
+        <h3>House More Beautiful</h3>
+        <p>There or are many the variations of passages of Lorem Ipsum or available, but the majority have but the
+          majority have suffered</p>
+        <h4>Mr. Onsequat</h4>
+        <h5>Vesoz Admin</h5>
+        <img src="./UI Clone Images/buying-cars.png" alt="">
+      </div>
+
+
+
+    </div>
+
+  </div>
+</section>
+
+<section> 
+  <div class="free-shiping">
+    <div class="free-ship-cards">
+
+      <div class="free-ship-card">
+        <i class="fa-solid fa-truck"></i>
+        <h3>Free Shipping Order</h3>
+        <p>On orders over $100</p>
+      </div>
+
+        <div class="free-ship-card">
+       <i class="fa-solid fa-hand-holding-heart"></i>
+        <h3>Special Gift Card</h3>
+        <p>The perfect gift idea</p>
+      </div>
+
+
+        <div class="free-ship-card">
+       <i class="fa-solid fa-rotate-left"></i>
+        <h3>Return & Exchange</h3>
+        <p>Free return within 3 days</p>
+      </div>
+
+      
+        <div class="free-ship-card">
+       <i class="fa-solid fa-phone"></i>
+        <h3>Support 24 / 7</h3>
+        <p>Customer Support</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- footer  -->
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="container footer-grid">
+      <div class="footer-col about">
+        <img src="./UI Clone Images/logo2.png" alt="" width="200px">
+        <p>Quality plants & pots delivered to your door. Designed for modern homes.</p>
+      </div>
+      <div class="footer-col links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col support">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+      <div class="footer-col contact">
+        <h4>Get In Touch</h4>
+        <p>Phone: 00440012345678</p>
+        <p>Email: example@example.com</p>
+        <p>Address: 29 Washington Pl, New York, NY 10003, USA</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© 2025 SolPlant. All rights reserved. Design by SolPlant</p>
+    </div>
+  </div>
+</footer>
+
+
+
+<script>
+function toggleMenu() {
+  const menu = document.getElementById("mobileMenu");
+  if (menu.style.right === "0px") {
+    menu.style.right = "-100%";
+  } else {
+    menu.style.right = "0px";
+  }
+}
+</script>
+
+
+
+
+<body>
+
+</body>
+
+</html>
